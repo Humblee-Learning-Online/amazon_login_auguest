@@ -1,0 +1,96 @@
+a {
+    color: #0066C0;
+}
+
+#logo-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.push-to-middle {
+    margin: 0 auto;
+}
+
+.image-of-stuff {
+    background: url(https://via.placeholder.com/500);
+    height: 200px;
+    width: inherit;
+}
+
+#form-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+header, #logo-container {
+    margin-bottom: 25px;
+}
+
+form p {
+    margin-bottom: 8px;
+}
+
+#login {
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+}
+
+#login:hover {
+    border-color: #a88734 #9c7e31 #846a29;
+    background: linear-gradient(to bottom, #f5d78e, #eeb933)
+}
+
+#conditions {
+    margin-top: 15px;
+}
+
+#bottom-content-container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+#bottom-content-container small.background {
+    position: relative;
+    z-index: 1;
+}
+
+#bottom-content-container small.background:before {
+    border-top: 2px solid #dfdfdf;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+#bottom-content-container small {
+    display: block;
+    color: gray;
+}
+
+#bottom-content-container span {
+    background: #fff;
+    padding: 0 15px;
+}
+
+#customer-button-container button {
+    margin-top: 10px;
+    background: linear-gradient(to bottom, #f7f8fa, #e7e9ec);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 60%) inset;
+    color: #111;
+}
+
+#customer-button-container button:hover {
+    background: #e7e9ec;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+    background: linear-gradient(to bottom, #e7eaf0, #d9dce1);
+}
